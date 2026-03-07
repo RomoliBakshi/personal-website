@@ -3,14 +3,16 @@ import { OpenFeature } from '@openfeature/web-sdk';
 
 // Next few lines are what is meant by "initializing the SDK"
 const env = 'production'
+// Ideally assign this on log-in
+const customer_id = 2
 
 // Define the provider
 const provider = new DatadogProvider({
     // Generated in the Datadog app, identifies which RUM app this belongs to
     // In this case, RUM app for personal website
-    applicationId: '<REDACTED>', 
+    applicationId: import.meta.env.VITE_DD_APPLICATION_ID,
     // Generated in the Datadog app, authenticates request to Datadog organization (org 2)
-    clientToken: '<REDACTED>', 
+    clientToken: import.meta.env.VITE_DD_CLIENT_TOKEN,
     enableExposureLogging: true, // Can impact RUM costs if enabled
     site: 'datadoghq.com',
     // Nothing to do with Datadog env, this is env of the personal-website instance
@@ -23,7 +25,8 @@ const provider = new DatadogProvider({
 // Set evaluation context with custom attributes.
 // Reference these attributes in your targeting rules to control who sees each variant.
 const evaluationContext = {
-    targetingKey: '<SUBJECT KEY>',
+    // Subject key used for randomization
+    targetingKey: org_id, 
     userId: '123',
     userName: 'Romoli Bakshi'
 };
