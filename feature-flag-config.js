@@ -44,7 +44,7 @@ const updateName = async () => {
     const nameElement = document.querySelector('.name');
     
     if (nameElement) {
-        nameElement.textContent = value ? 'ROMOLI BAKSHI' : 'romoli bakshi';
+        nameElement.textContent = value ? 'romoli bakshi' : 'ROMOLI BAKSHI';
     }
 };
 
