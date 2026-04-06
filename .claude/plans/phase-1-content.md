@@ -48,14 +48,23 @@ Each card: short description, what's included, who it's for.
 ---
 
 ## Content Needed from Romoli
-Before implementation can start, the following real assets are needed:
 
-- [ ] Video reel footage (raw clips from past weddings/performances for hero)
+### Videos & Photos
+Reach out to these weddings for footage and testimonials:
+- [ ] Mallika and Chanpreet
+- [ ] Shreyan and Akanksha
+- [ ] Shilp and Praksha
+
+For each: ask for performance video clips, any candid rehearsal/behind-the-scenes footage, and a short written or video testimonial quote.
+
+### Other Assets
 - [ ] Professional or high-quality photo of Romoli
 - [ ] Written bio (or notes — Claude can draft from bullet points)
-- [ ] Real testimonial videos or quotes from past clients
 - [ ] Confirmation of services offered and pricing structure (even rough)
 - [ ] Any song/style preferences to show in the services section
+
+### Location
+- Based in New York, NY — open to travel
 
 ---
 
