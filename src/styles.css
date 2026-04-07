@@ -297,6 +297,17 @@ a { color: inherit; text-decoration: none; }
     letter-spacing: 0.05em;
 }
 
+.bio-photo {
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    border: 2px solid var(--gold);
+    display: block;
+    margin: 0 auto;
+}
+
 /* ─── Services ───────────────────────────────────────────── */
 .services-grid {
     display: grid;
