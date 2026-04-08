@@ -3,4 +3,5 @@ dist/
 .DS_Store
 .env
 
-src/assets/
+src/assets/*.mov
+src/assets/*.mp4
