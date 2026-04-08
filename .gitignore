@@ -2,4 +2,6 @@ node_modules/
 dist/
 .DS_Store
 .env
+src/assets/*.mov
+src/assets/*.mp4
 
